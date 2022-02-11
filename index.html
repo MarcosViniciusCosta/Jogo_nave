@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo das naves</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+    <div id="container">
+
+        <div id="fundo">
+
+            <div id= "inicio" onclick="iniciar_jogo()"> <h1>Resgate os prisioneiros</h1>
+                <p> w: cima   <br>  s: baixo   <br>     espaço:  atirar</p>
+                <p> Clique aqui para iniciar o jogo</p>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+    
+    <!-- Sons do jogo !-->
+    <audio src="sons/som.mp3" preload="auto" id="som_disparo"></audio>
+    <audio src="sons/explosao.mp3" preload="auto" id="som_explosao"></audio>
+    <audio src="sons/musica_fundo.mp3" preload="auto" id="som_musica"></audio>
+    <audio src="sons/gameover.mp3" preload="auto" id="som_gameover"></audio>
+    <audio src="sons/perdido.mp3" preload="auto" id="som_perdido"></audio>	
+    <audio src="sons/resgate.mp3" preload="auto" id="som_resgate"></audio>
+
+    <!-- códigos JS !-->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/codigo.js"></script>
+    <script src="js/jquery-collision.min.js"> </script>
+</body>
+</html>

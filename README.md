@@ -1,2 +1,2 @@
 # Jogo_nave
-Jogo de nave feito com JavaScript, CSS, HTML E  jQuery.
+Jogo 2D de naves feito com JavaScript, CSS, HTML E jQuery.
